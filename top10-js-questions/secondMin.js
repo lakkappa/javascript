@@ -7,7 +7,7 @@ function fn(arr) {
             sMin = min;
             min = arr[i];
         }
-        else if (arr[i] > min && arr[i] < sMin) {
+        else if (arr[i] != min && arr[i] < sMin) {
             sMin = arr[i];
         }
     }

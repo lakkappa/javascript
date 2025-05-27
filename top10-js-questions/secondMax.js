@@ -7,7 +7,7 @@ function fn(arr) {
             sMax = max;
             max = arr[i];
         }
-        else if (arr[i] < max && arr[i] > sMax) {
+        else if (arr[i] != max && arr[i] > sMax) {
             sMax = arr[i];
         }
     }

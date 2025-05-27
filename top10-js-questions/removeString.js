@@ -1,3 +1,12 @@
+// new and best logic
+let newstr = str.split("").filter((item, index, newStr) => {
+    if (newStr.indexOf(item) === index) {
+        return newStr;
+    }
+});
+return newstr.join("");
+
+
 function removeDuplicates(str) {
     let setStr = new Set();
     let res = '';

@@ -1,3 +1,8 @@
+// Function currying is a technique, where a function doesn't take all its arguments at once.
+// Instead, it takes the first argument, returns a new function that takes the second argument, and so on — until all arguments have been provided.
+
+
+
 // function curying using the bind method.
 let multiply = function (x, y) {
     console.log(x * y);
