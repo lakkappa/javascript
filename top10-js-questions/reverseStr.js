@@ -66,3 +66,12 @@ let s = "!kashi.  @llllkkii"
 
 //const res = myFunc(str);
 // console.log(res);
+
+// new way using the while loop
+let newstr = str.split('');
+while (start < end) {
+    newstr[start, end] = newstr[end, start];
+    start++;
+    end--;
+}
+console.log(newstr.join(''), start, end);

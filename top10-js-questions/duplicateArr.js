@@ -48,3 +48,9 @@ console.log(res2);
 // Remove Duplicates from an Array
 // [1, 2, 2, 3, 4, 4]
 //o/p [1,2,3,4];
+
+
+
+// Using the filter logic, we can do following questions
+// 1. Remove duplicate array elements like string or numbers
+// 2. Remove dubplicate characters in the given string

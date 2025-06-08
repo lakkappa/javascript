@@ -11,6 +11,7 @@ function fn(arr) {
             sMax = arr[i];
         }
     }
+    return sMax;
 }
 
 const res = fn([2, 5, 6, 8, 3, 3, 2, 1, 10, 0, 20, -1]);
